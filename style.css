@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+.slide {
+  width: 50%;
+  height: 100vh;
+  margin: 0 auto;
+  position: relative;
+}
+
+.slide_imgBox {
+  width: 100%;
+  height: 50vh;
+  margin: 0 auto;
+  background: url("/img/company.png");
+  overflow: hidden;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.imgSetting {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
