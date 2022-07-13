@@ -34,4 +34,7 @@ function slideShow() {
   }
 }
 
+setTimeout(function(){
+  slideImg.hide(1000);
+}, 4000);
 setInterval(slideShow, 5000);
